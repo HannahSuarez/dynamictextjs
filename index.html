@@ -1,0 +1,69 @@
+<!DOCTYPE html><html class=''>
+<head>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Handlee);
+
+html {
+  height: 100%;
+}
+
+body {
+    background: rgb(255, 255, 255); 
+    background: rgba(255, 255, 255, .1); 
+  font-family: 'Handlee', sans-serif;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  margin: 0;
+}
+
+h1 {
+  color: #000000;
+  font-size: 4em;
+}
+
+.typed {
+  border-bottom: 2px solid #000000;
+}
+
+.typed-cursor{
+   opacity: 1;
+   -webkit-animation: blink 0.7s infinite;
+           animation: blink 0.7s infinite;
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}</style></head><body>
+<h1>Congrats <span id="typed" class="typed"></span> - SSC Class of 2016!</h1>
+
+<script src='https://storage.googleapis.com/risemedialibrary-960b72df-9af7-476b-8a47-b67ded4c779d/JSHeaders/stopExecutionOnTimeout.js?t=1'></script><script src='https://storage.googleapis.com/risemedialibrary-960b72df-9af7-476b-8a47-b67ded4c779d/JSHeaders/jquery.min.js'></script><script src='https://storage.googleapis.com/risemedialibrary-960b72df-9af7-476b-8a47-b67ded4c779d/JSHeaders/typed.min.js'></script>
+<script>$(function() {
+	$("#typed").typed({
+		strings: ["Grace Padilla", "Cecil Drake", "Kate Owen", "Christy Simpson", "Joe Maldonado", "Raymond Nash", "Rita Mann", "Ray Howell", "Adrienne Barnes"],
+		typeSpeed: 100,
+    backDelay: 1500,
+    loop: true,
+    callback: function(){}
+	});
+});
+</script>
+</body></html>
